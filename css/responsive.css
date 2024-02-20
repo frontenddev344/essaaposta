@@ -159,6 +159,9 @@
   .contact-us {
     border-right: 1px solid #fff;
   }
+  .flexcard-main {
+    padding: 50px 0;
+  }
 }
 @media screen and (max-width: 575px) {
   .site-nav {

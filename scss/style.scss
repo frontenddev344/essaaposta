@@ -236,6 +236,62 @@ p.choosepara {
 }
 
 /*home-css-end*/
+
+/*about start*/
+section.aboutbanner.banner {
+    background-image: url(../images/aboutbanner.jpg);
+}
+
+.flexcard {
+    padding-bottom: 50px;
+}
+
+.flexcard-title {
+    text-align: center;
+}
+
+.flexcard-main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+
+}
+
+.flexcard-main:hover {
+    background-color: $clr-yellow;
+    margin: 0;
+    transition: 0.3s ease;
+
+    p {
+        color: $clr-white;
+    }
+}
+
+.flexcard-main p {
+    font-size: 14px;
+    line-height: 17px;
+    color: $clr-black;
+}
+
+.flexcard-main h4 {
+    color: $clr-yellow;
+}
+
+.flexcard-picture img {
+    height: 203px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+.flexcard-main:hover h4 {
+    color: #0C0B0B;
+}
+
+/*about end*/
 /*footer start*/
 .footer {
     background-repeat: no-repeat;
