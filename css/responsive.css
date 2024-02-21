@@ -296,9 +296,8 @@ h4 {
     align-items: start;
   }
   .social-icons,
-  .links__main,
-  .contact-us {
-    border-right: 1px solid #fff;
+  .links__main {
+    border: none;
   }
   .flexcard-main {
     padding: 50px 0;
