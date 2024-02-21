@@ -497,7 +497,9 @@ span.travelblock {
 
 .social-icons {
     img {
-        max-width: 18rem;
+        max-width: 20px;
+        filter: invert(85%) sepia(73%) saturate(1085%) hue-rotate(323deg) brightness(89%) contrast(86%);
+
     }
 
     p {
@@ -512,10 +514,6 @@ span.travelblock {
 
     a {
         color: $clr-yellow;
-    }
-
-    i:hover {
-        color: $clr-black;
     }
 }
 
