@@ -1,3 +1,6 @@
+@import './mixins';
+@import './variables';
+@import './typography';
 /*media queries start*/
 @media screen and (max-width: 1199px) {
 
@@ -40,7 +43,7 @@
         right: 0;
         bottom: 0;
         width: 300px;
-        background: #000000;
+        background: $clr-yellow;
         transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
         transform: translateX(-100%);
     }
