@@ -292,6 +292,49 @@ section.aboutbanner.banner {
 }
 
 /*about end*/
+
+/*luxury start*/
+.luxury.banner {
+    background-image: url(../images/luxurybanner.jpg);
+}
+
+.luxurycard {
+    &-main {
+        color: #fff;
+        text-align: start;
+        height: 100%;
+        padding: 25px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        img {
+            height: 250px;
+            object-fit: cover;
+        }
+    }
+
+    &-inner {
+        height: 100%;
+        margin-top: 25px;
+
+        p {
+            color: $clr-black;
+        }
+    }
+}
+
+.luxurycard .row {
+    row-gap: 25px;
+}
+
+/*luxury end*/
+
+/*resorts start*/
+.resorts.banner {
+    background-image: url(../images/resortsbanner.jpg);
+}
+
 /*footer start*/
 .footer {
     background-repeat: no-repeat;

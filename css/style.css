@@ -102,7 +102,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   line-height: normal;
   font-weight: 500;
   font-family: "PT Serif", serif;
@@ -401,6 +401,42 @@ section.aboutbanner.banner {
 }
 
 /*about end*/
+/*luxury start*/
+.luxury.banner {
+  background-image: url(../images/luxurybanner.jpg);
+}
+
+.luxurycard-main {
+  color: #fff;
+  text-align: start;
+  height: 100%;
+  padding: 25px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.luxurycard-main img {
+  height: 250px;
+  object-fit: cover;
+}
+.luxurycard-inner {
+  height: 100%;
+  margin-top: 25px;
+}
+.luxurycard-inner p {
+  color: #0C0B0B;
+}
+
+.luxurycard .row {
+  row-gap: 25px;
+}
+
+/*luxury end*/
+/*resorts start*/
+.resorts.banner {
+  background-image: url(../images/resortsbanner.jpg);
+}
+
 /*footer start*/
 .footer {
   background-repeat: no-repeat;
