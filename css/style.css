@@ -404,6 +404,68 @@ section.aboutbanner.banner {
   color: #0C0B0B;
 }
 
+.about_us_content {
+  background-color: #fff;
+  margin: 30px 0;
+  width: 50%;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.about_us_content .input-control {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #d3af35;
+  padding: 2rem 2rem;
+  background: transparent;
+  color: #0C0B0B;
+}
+
+.about_us_content textarea.input-control {
+  resize: none;
+  height: auto;
+}
+
+.form-group .submit-btn {
+  background: #d3af35;
+  border: 1px solid #d3af35;
+  transition: all 0.2s linear;
+  display: inline-block;
+  padding: 0.8rem 4rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+.form-group .submit-btn:hover {
+  background-color: #0C0B0B !important;
+  border: 1px solid #0C0B0B !important;
+}
+
+.about_us_content .input-control:focus-visible {
+  outline: none;
+}
+
+.about_us_content .form-group label {
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #0C0B0B;
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "PT Serif";
+}
+
+button.submit-btn {
+  color: #0C0B0B !important;
+}
+button.submit-btn:hover {
+  background-color: #d3af35 !important;
+  border-color: #d3af35 !important;
+  color: #fff !important;
+}
+
 /*about end*/
 /*luxury start*/
 .luxury.banner {
