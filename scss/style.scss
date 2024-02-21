@@ -49,6 +49,7 @@ html {
 /*global end*/
 
 /*header start*/
+
 header.site-header {
     background: transparent;
     font-size: 18px;
@@ -359,7 +360,6 @@ button.submit-btn {
     }
 
 }
-
 /*about end*/
 
 /*luxury start*/
@@ -603,7 +603,7 @@ span.travelblock {
         color: $clr-white;
 
         &:hover {
-            color: $clr-black;
+            color: #000;
         }
     }
 
