@@ -12,8 +12,8 @@ button {
 
 .primary-btn a {
   border-radius: 10px;
-  background: #d3af35;
-  color: #0C0B0B;
+  background: #04566E;
+  color: #eac88d;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -34,7 +34,7 @@ button {
   width: 0%;
   height: 100%;
   color: #fff !important;
-  background: #0C0B0B;
+  background: #eac88d;
   z-index: -1;
   right: 0;
   top: 0;
@@ -50,7 +50,7 @@ button {
 }
 
 .primary-btn a:hover {
-  color: #fff;
+  color: #04566E;
 }
 
 .banner {
@@ -76,6 +76,7 @@ p {
   line-height: 25px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
+  color: #000 !important;
 }
 @media screen and (max-width: 768px) {
   p {
@@ -88,7 +89,7 @@ h1 {
   font-size: 60px;
   font-weight: 500;
   line-height: normal;
-  color: #d3af35;
+  color: #eac88d;
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -129,7 +130,7 @@ h3 {
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
-  color: #d3af35;
+  color: #04566E;
 }
 
 h4 {
@@ -139,7 +140,7 @@ h4 {
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
-  color: #d3af35;
+  color: #04566E;
   margin-bottom: 0;
 }
 
@@ -193,7 +194,7 @@ header.site-header {
   padding: 10px 0;
   font-weight: 700;
   text-transform: capitalize;
-  color: #0C0B0B;
+  color: #eac88d;
   position: absolute;
   top: 0;
   left: 0;
@@ -204,11 +205,11 @@ header.site-header {
 }
 
 .site-header .site-nav ul li a.active {
-  color: #d3af35;
+  color: #eac88d;
 }
 
 header.site-header.sticky {
-  background: #d3af35;
+  background: #04566E;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding: 2px 0;
@@ -220,7 +221,7 @@ header.site-header.sticky .site-nav a {
 }
 
 header.site-header.sticky .site-nav a.active {
-  color: #000;
+  color: #eac88d;
 }
 
 .site-logo img {
@@ -235,7 +236,7 @@ header.site-header.sticky .site-nav a.active {
   color: #fff;
 }
 .site-nav a:hover {
-  color: #d3af35;
+  color: #eac88d;
 }
 
 .site-header {
@@ -281,7 +282,7 @@ header.site-header.sticky .site-nav a.active {
   padding: 30px 0;
 }
 .topttext p {
-  color: #0C0B0B;
+  color: #eac88d;
   font-weight: normal;
 }
 
@@ -295,19 +296,22 @@ header.site-header.sticky .site-nav a.active {
 
 .choosebox {
   height: 100%;
-  background: #d3af35;
+  background: #04566E;
   padding: 10px;
 }
+.choosebox p {
+  color: #fff !important;
+}
 .choosebox:hover {
-  background-color: #0C0B0B;
+  background-color: #eac88d;
   transform: translateY(-10px);
   transition: 0.3s;
 }
 .choosebox:hover h3 {
-  color: #d3af35;
+  color: #04566E;
 }
 .choosebox:hover p {
-  color: #fff;
+  color: #04566E !important;
 }
 .choosebox:hover img {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
@@ -318,6 +322,7 @@ header.site-header.sticky .site-nav a.active {
 .choosebox img {
   max-width: 50px;
   margin: 20px 0;
+  filter: invert(94%) sepia(13%) saturate(879%) hue-rotate(328deg) brightness(96%) contrast(88%);
 }
 
 p.choosepara {
@@ -336,21 +341,6 @@ p.choosepara {
   height: 100%;
 }
 
-.casinohotel-content.right {
-  background: #d3af35;
-}
-.casinohotel-content.right h3 {
-  color: #fff;
-}
-.casinohotel-content.right a {
-  color: #fff;
-  background-color: #0C0B0B;
-}
-.casinohotel-content.right a:hover {
-  background-color: #fff;
-  color: #fff;
-}
-
 .casinohotel-content.right span {
   font-size: 25px;
 }
@@ -359,10 +349,6 @@ p.choosepara {
 /*about start*/
 section.aboutbanner.banner {
   background-image: url(../images/aboutbanner.jpg);
-}
-
-.flexcard {
-  padding-bottom: 50px;
 }
 
 .flexcard-title {
@@ -379,7 +365,7 @@ section.aboutbanner.banner {
 }
 
 .flexcard-main:hover {
-  background-color: #d3af35;
+  background-color: #04566E;
   margin: 0;
   transition: 0.3s ease;
 }
@@ -390,11 +376,11 @@ section.aboutbanner.banner {
 .flexcard-main p {
   font-size: 14px;
   line-height: 17px;
-  color: #0C0B0B;
+  color: #eac88d;
 }
 
 .flexcard-main h4 {
-  color: #d3af35;
+  color: #04566E;
 }
 
 .flexcard-picture img {
@@ -403,7 +389,7 @@ section.aboutbanner.banner {
 }
 
 .flexcard-main:hover h4 {
-  color: #0C0B0B;
+  color: #eac88d;
 }
 
 .about_us_content {
@@ -420,10 +406,10 @@ section.aboutbanner.banner {
   display: block;
   width: 100%;
   height: 4rem;
-  border: 1px solid #d3af35;
+  border: 1px solid #04566E;
   padding: 2rem 2rem;
   background: transparent;
-  color: #0C0B0B;
+  color: #eac88d;
 }
 
 .about_us_content textarea.input-control {
@@ -432,8 +418,8 @@ section.aboutbanner.banner {
 }
 
 .form-group .submit-btn {
-  background: #d3af35;
-  border: 1px solid #d3af35;
+  background: #04566E;
+  border: 1px solid #04566E;
   transition: all 0.2s linear;
   display: inline-block;
   padding: 0.8rem 4rem;
@@ -441,8 +427,8 @@ section.aboutbanner.banner {
   text-transform: capitalize;
 }
 .form-group .submit-btn:hover {
-  background-color: #0C0B0B !important;
-  border: 1px solid #0C0B0B !important;
+  background-color: #eac88d !important;
+  border: 1px solid #eac88d !important;
 }
 
 .about_us_content .input-control:focus-visible {
@@ -452,7 +438,7 @@ section.aboutbanner.banner {
 .about_us_content .form-group label {
   display: inline-block;
   padding-bottom: 5px;
-  color: #0C0B0B;
+  color: #04566E;
   transition: all 0.2s linear;
   text-transform: capitalize;
   font-weight: 600;
@@ -460,11 +446,11 @@ section.aboutbanner.banner {
 }
 
 button.submit-btn {
-  color: #0C0B0B !important;
+  color: #eac88d !important;
 }
 button.submit-btn:hover {
-  background-color: #d3af35 !important;
-  border-color: #d3af35 !important;
+  background-color: #04566E !important;
+  border-color: #04566E !important;
   color: #fff !important;
 }
 
@@ -492,7 +478,7 @@ button.submit-btn:hover {
   margin-top: 25px;
 }
 .luxurycard-inner p {
-  color: #0C0B0B;
+  color: #eac88d;
 }
 
 .luxurycard .row {
@@ -513,7 +499,7 @@ button.submit-btn:hover {
 
 span.travelblock {
   font-size: 23px;
-  color: #d3af35;
+  color: #04566E;
 }
 
 .travel {
@@ -525,7 +511,7 @@ span.travelblock {
 }
 
 .travelcard-inner span {
-  color: #0C0B0B;
+  color: #eac88d;
   font-size: 18px;
   display: block;
   text-align: center;
@@ -552,7 +538,7 @@ span.travelblock {
   text-align: left;
 }
 .traveltips h3 {
-  color: #0C0B0B;
+  color: #04566E;
 }
 
 .traveltips .row {
@@ -571,7 +557,7 @@ span.travelblock {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #d3af35;
+  background-color: #04566E;
   opacity: 0.95;
   z-index: -1;
 }
@@ -588,7 +574,7 @@ span.travelblock {
 
 .social-icons img {
   max-width: 20px;
-  filter: invert(85%) sepia(73%) saturate(1085%) hue-rotate(323deg) brightness(89%) contrast(86%);
+  filter: invert(28%) sepia(53%) saturate(699%) hue-rotate(147deg) brightness(97%) contrast(93%);
 }
 .social-icons p {
   color: #fff;
@@ -599,7 +585,7 @@ span.travelblock {
   flex-wrap: wrap;
 }
 .social-icons a {
-  color: #d3af35;
+  color: #04566E;
 }
 
 .social-icons a:last-child {
@@ -615,7 +601,6 @@ span.travelblock {
   transition: all 0.3s ease-in-out;
 }
 .social-icons a:last-child:hover {
-  color: #fff;
   transform: rotate(180deg);
 }
 
@@ -636,7 +621,7 @@ span.travelblock {
   display: inline-block;
 }
 .useful-links li a:hover {
-  color: #0C0B0B;
+  color: #eac88d;
 }
 .useful-links h4 {
   font-size: 26px;
@@ -665,7 +650,7 @@ span.travelblock {
 }
 .contact-us h4 {
   font-size: 26px;
-  color: #0C0B0B;
+  color: #eac88d;
   margin-bottom: 15px;
 }
 .contact-us p {
@@ -676,7 +661,7 @@ span.travelblock {
   color: #fff;
 }
 .contact-us a:hover {
-  color: #000;
+  color: #eac88d;
 }
 
 .content-wrap ul {

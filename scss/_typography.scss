@@ -54,7 +54,7 @@ button {
 }
 
 .primary-btn a:hover {
-    color: $clr-white;
+    color: $clr-yellow;
 }
 
 .banner {
@@ -81,6 +81,7 @@ p {
     line-height: 25px;
     font-family: "Poppins", sans-serif;
     margin-bottom: 0;
+    color: #000 !important;
 
     @include mq(md) {
         font-size: 15px;
@@ -93,7 +94,7 @@ h1 {
     font-size: 60px;
     font-weight: 500;
     line-height: normal;
-    color: $clr-yellow;
+    color: $clr-black;
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;

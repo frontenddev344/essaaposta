@@ -67,7 +67,7 @@ header.site-header {
 }
 
 .site-header .site-nav ul li a.active {
-    color: $clr-yellow;
+    color: $clr-black;
 }
 
 header.site-header.sticky {
@@ -83,7 +83,7 @@ header.site-header.sticky .site-nav a {
 }
 
 header.site-header.sticky .site-nav a.active {
-    color: #000;
+    color: $clr-black;
 }
 
 
@@ -99,7 +99,7 @@ header.site-header.sticky .site-nav a.active {
     color: $clr-white;
 
     &:hover {
-        color: $clr-yellow;
+        color: $clr-black;
     }
 }
 
@@ -169,6 +169,10 @@ header.site-header.sticky .site-nav a.active {
     background: $clr-yellow;
     padding: 10px;
 
+    p {
+        color: $clr-white !important;
+    }
+
     &:hover {
         background-color: $clr-black;
         transform: translateY(-10px);
@@ -179,7 +183,7 @@ header.site-header.sticky .site-nav a.active {
         }
 
         p {
-            color: $clr-white;
+            color: $clr-yellow !important;
         }
 
         img {
@@ -194,6 +198,7 @@ header.site-header.sticky .site-nav a.active {
     img {
         max-width: 50px;
         margin: 20px 0;
+        filter: invert(94%) sepia(13%) saturate(879%) hue-rotate(328deg) brightness(96%) contrast(88%);
     }
 }
 
@@ -218,23 +223,7 @@ p.choosepara {
     }
 }
 
-.casinohotel-content.right {
-    background: $clr-yellow;
 
-    h3 {
-        color: $clr-white ;
-    }
-
-    a {
-        color: $clr-white;
-        background-color: $clr-black;
-
-        &:hover {
-            background-color: $clr-white;
-            color: $clr-white;
-        }
-    }
-}
 
 .casinohotel-content.right span {
     font-size: 25px;
@@ -247,9 +236,6 @@ section.aboutbanner.banner {
     background-image: url(../images/aboutbanner.jpg);
 }
 
-.flexcard {
-    padding-bottom: 50px;
-}
 
 .flexcard-title {
     text-align: center;
@@ -342,7 +328,7 @@ section.aboutbanner.banner {
 .about_us_content .form-group label {
     display: inline-block;
     padding-bottom: 5px;
-    color: $clr-black;
+    color: $clr-yellow;
     transition: all 0.2s linear;
     text-transform: capitalize;
     font-weight: 600;
@@ -455,7 +441,7 @@ span.travelblock {
     }
 
     h3 {
-        color: $clr-black;
+        color: $clr-yellow;
     }
 }
 
@@ -498,8 +484,7 @@ span.travelblock {
 .social-icons {
     img {
         max-width: 20px;
-        filter: invert(85%) sepia(73%) saturate(1085%) hue-rotate(323deg) brightness(89%) contrast(86%);
-
+        filter: invert(28%) sepia(53%) saturate(699%) hue-rotate(147deg) brightness(97%) contrast(93%);
     }
 
     p {
@@ -531,7 +516,6 @@ span.travelblock {
     transition: all 0.3s ease-in-out;
 
     &:hover {
-        color: #fff;
         transform: rotate(180deg);
     }
 }
@@ -602,7 +586,7 @@ span.travelblock {
         color: $clr-white;
 
         &:hover {
-            color: #000;
+            color: $clr-black;
         }
     }
 
