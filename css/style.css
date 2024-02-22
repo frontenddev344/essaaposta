@@ -108,6 +108,8 @@ h2 {
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+  margin: 25px 0 !important;
 }
 @media screen and (max-width: 768px) {
   h2 {
@@ -138,6 +140,7 @@ h4 {
   font-weight: 400;
   font-style: normal;
   color: #d3af35;
+  margin-bottom: 0;
 }
 
 * {
@@ -217,7 +220,7 @@ header.site-header.sticky .site-nav a {
 }
 
 header.site-header.sticky .site-nav a.active {
-  color: #fff;
+  color: #000;
 }
 
 .site-logo img {
@@ -395,8 +398,7 @@ section.aboutbanner.banner {
 }
 
 .flexcard-picture img {
-  height: 203px;
-  -o-object-fit: cover;
+  height: 350px;
   object-fit: cover;
 }
 
@@ -674,6 +676,21 @@ span.travelblock {
 }
 .contact-us a:hover {
   color: #000;
+}
+
+.content-wrap ul {
+  margin: 10px 0;
+}
+
+.footer.new .social-icons {
+  display: flex;
+  height: auto;
+  border: none;
+}
+
+.footer.new .footer-logo img {
+  max-width: 150px;
+  margin-bottom: 25px;
 }
 
 /*footer end*/
