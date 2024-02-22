@@ -324,6 +324,9 @@ h4 {
   .topttext p {
     text-align: justify;
   }
+  .content-wrap h4 {
+    font-size: 19px !important;
+  }
 }
 
 
