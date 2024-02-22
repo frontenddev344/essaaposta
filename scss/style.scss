@@ -134,6 +134,7 @@ header.site-header.sticky .site-nav a.active {
 /*banner-css-start*/
 .homebanner.banner {
     background-image: url(../images/homebanner.jpg);
+    height: 550px;
 }
 
 .bannertitle {
@@ -285,6 +286,8 @@ section.aboutbanner.banner {
     background-color: $clr-white;
     margin: 30px 0;
     width: 50%;
+    margin: 0 auto;
+    padding-top: 60px;
 }
 
 .form-group {
@@ -636,6 +639,10 @@ span.travelblock {
         li {
             font-size: 15px;
         }
+
+        h4 {
+            margin: 10px 0;
+        }
     }
 }
 
@@ -645,6 +652,10 @@ span.travelblock {
     .content-wrap {
         li {
             font-size: 15px;
+        }
+
+        h4 {
+            margin: 10px 0;
         }
     }
 }
