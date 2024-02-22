@@ -15,8 +15,8 @@ button {
 
 .primary-btn a {
     border-radius: 10px;
-    background: $clr-yellow;
-    color: $clr-black;
+    background: $clr-darkblue;
+    color: $clr-creme;
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -37,7 +37,7 @@ button {
         width: 0%;
         height: 100%;
         color: $clr-white !important;
-        background: $clr-black;
+        background: $clr-creme;
         z-index: -1;
         right: 0;
         top: 0;
@@ -54,7 +54,7 @@ button {
 }
 
 .primary-btn a:hover {
-    color: $clr-yellow;
+    color: $clr-darkblue;
 }
 
 .banner {
@@ -94,7 +94,7 @@ h1 {
     font-size: 60px;
     font-weight: 500;
     line-height: normal;
-    color: $clr-black;
+    color: $clr-creme;
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -133,7 +133,7 @@ h3 {
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
-    color: $clr-yellow;
+    color: $clr-darkblue;
 }
 
 h4 {
@@ -143,6 +143,6 @@ h4 {
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
-    color: $clr-yellow;
+    color: $clr-darkblue;
     margin-bottom: 0;
 }
