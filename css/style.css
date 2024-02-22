@@ -543,6 +543,7 @@ span.travelblock {
   display: flex;
   gap: 25px;
   padding: 16px 0;
+  align-items: center;
 }
 .traveltips img {
   max-width: 45px;
